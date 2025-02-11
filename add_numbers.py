@@ -9,6 +9,4 @@ def add_two_numbers(a: float, b: float) -> float:
     Returns:
         float: The sum of a and b
     """
-    # TODO: Implement this function
-    # Delete the line below and write your implementation
-    raise NotImplementedError("You need to implement this function!") 
+    return float(a) + float(b)
