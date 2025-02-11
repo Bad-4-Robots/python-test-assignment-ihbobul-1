@@ -21,7 +21,7 @@ jobs:
         token: ${{ secrets.TEST_REPO_PAT }}
         path: temp_tests
 
-    - name: Move test file to root
+    - name: Move test file to roott
       run: |
         mv temp_tests/run_tests.py test_add_numbers.py
         rm -rf temp_tests
