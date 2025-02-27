@@ -1,6 +1,6 @@
 def add_two_numbers(a: float, b: float) -> float:
     """
-    Add two numbers and return the result.
+    Add two numbers and return the result...
     
     Args:
         a (float): The first number
